@@ -1,0 +1,18 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.pytest_cache/
+
+# Virtual environments
+.venv
+
+# smoke-test and log output of the scripts
+O1_parts4-7/results/*.log
+O1_parts4-7/results/part7_quick.json
+
+# macOS
+.DS_Store

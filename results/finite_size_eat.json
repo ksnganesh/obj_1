@@ -1,0 +1,19 @@
+{
+ "settings": {
+  "eps_snd": 5e-11,
+  "eps_EA": 1e-11,
+  "eps_PA": 1e-11,
+  "eps_h": 4.336808689942018e-19,
+  "k_sigma": 3.0,
+  "ec_sqrt": 50.0,
+  "reading": "rigorous",
+  "ec_model": "matched"
+ },
+ "vmin": {
+  "two_setting_p0": {
+   "1e+08": 0.8847182130267921,
+   "1e+09": 0.8690493322228727,
+   "1e+10": 0.8623224292249482
+  }
+ }
+}

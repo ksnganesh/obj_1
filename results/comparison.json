@@ -1,0 +1,781 @@
+{
+ "published": {
+  "fan": {
+   "ref": "Fan et al., PRA 114, 032617 (2026)",
+   "vmin_p0": {
+    "1e+08": 0.8835,
+    "1e+09": 0.8686,
+    "1e+10": 0.8622
+   },
+   "vmin_popt": {
+    "1e+08": 0.8799,
+    "1e+09": 0.8608,
+    "1e+10": 0.8508
+   },
+   "ion": {
+    "rounds": 1500000.0,
+    "hours": 8.0,
+    "signs": true
+   },
+   "atom11km": {
+    "recorded": 1200000.0,
+    "recorded_hours": 624.0,
+    "signs_with_recorded": false,
+    "extrapolated_rounds": 2400000.0,
+    "extrapolated_hours_quoted": 1248.0,
+    "extrapolated_hours_at_reported_rate": 1239.7350993377484
+   },
+   "atom400m": {
+    "hours_order": 10000000.0
+   },
+   "photonic_reach_km": {
+    "1e14": 17.82,
+    "2e14": 28.87
+   },
+   "n_s": 46,
+   "eps": 1e-10,
+   "eps_snd": 5e-11,
+   "n_m": 1000
+  },
+  "bian": {
+   "ref": "Bian et al., arXiv:2610.39360 (2026)",
+   "signature_bits": 82,
+   "eps_qds": 1e-10,
+   "L_doc": 1000,
+   "forging_bound": "sqrt(7 m~ / 2^n), related-key",
+   "finite_size": "EAT"
+  },
+  "nadlinger": {
+   "ref": "Nadlinger et al., Nature 607, 682 (2022)",
+   "key_bits": 95628,
+   "rounds": 1500000.0,
+   "hours": 8.0
+  },
+  "hahn": {
+   "ref": "Hahn et al., arXiv:2507.07365 (2025)",
+   "key_factor": 3.0,
+   "nmin_factor": 3.0
+  },
+  "zhang23": {
+   "ref": "Zhang et al., PRL 131, 140801 (2023)",
+   "ion_data_requirement_factor": "< 1/3"
+  },
+  "lu": {
+   "ref": "Lu et al., Science 391, 592 (2026)",
+   "events": 1208000.0,
+   "hours": 624.0,
+   "bits_per_event": {
+    "renyi_1e-05": 0.112,
+    "renyi_1e-15": 0.075,
+    "eat_1e-05": 0.034
+   },
+   "key_kbit": 135.3,
+   "gamma_A": 0.26,
+   "gamma_B": 0.13,
+   "qber_100km": 0.0716,
+   "events_per_distance_beyond_11km": {
+    "20": 4351,
+    "50": 1193,
+    "70": 1166,
+    "100": 920
+   }
+  }
+ },
+ "ours": {
+  "vmin": {
+   "two_setting_q0": {
+    "1e+08": 0.872794948120743,
+    "1e+09": 0.8640836765975679,
+    "1e+10": 0.860210886154062
+   },
+   "two_setting_qopt": {
+    "1e+08": 0.8655410996050733,
+    "1e+09": 0.8531203864529617,
+    "1e+10": 0.8464693263615327
+   },
+   "one_setting_q0": {
+    "1e+08": 0.8689976545551389,
+    "1e+09": 0.862447365585292,
+    "1e+10": 0.8594930700472415
+   },
+   "one_setting_qopt": {
+    "1e+08": 0.8600903498058527,
+    "1e+09": 0.8502438367893004,
+    "1e+10": 0.844915575871944
+   }
+  },
+  "eat_vmin": {
+   "two_setting_p0": {
+    "1e+08": 0.884718213026792,
+    "1e+09": 0.8690493322228726,
+    "1e+10": 0.8623224292249483
+   },
+   "two_setting_plegend": {
+    "1e+08": 0.881062039486468,
+    "1e+09": 0.8612298213431521,
+    "1e+10": 0.8509080209939829
+   }
+  },
+  "experiments": {
+   "ion": {
+    "rows": {
+     "one_setting_q0": {
+      "n_min": 212849.0,
+      "hours": 1.1351946666666666,
+      "ell_at_n_min": 140.8358669076606
+     },
+     "one_setting_qopt": {
+      "n_min": 211967.0,
+      "hours": 1.1304906666666668,
+      "ell_at_n_min": 139.85624904097676
+     },
+     "two_setting_q0": {
+      "n_min": 701200.0,
+      "hours": 3.739733333333333,
+      "ell_at_n_min": 138.18485195729227
+     },
+     "two_setting_qopt": {
+      "n_min": 697306.0,
+      "hours": 3.7189653333333332,
+      "ell_at_n_min": 139.58908589832936
+     },
+     "independent_q0": {
+      "n_min": 304818.0,
+      "hours": 1.625696,
+      "ell_at_n_min": 139.57895318108058
+     },
+     "independent_qopt": {
+      "n_min": 303415.0,
+      "hours": 1.6182133333333333,
+      "ell_at_n_min": 140.095613611742
+     },
+     "seeded_qopt": {
+      "n_min": 294150.0,
+      "hours": 1.5688,
+      "ell_at_n_min": 141.45894398814198
+     },
+     "two_setting_iso_qopt": {
+      "n_min": 504948.0,
+      "hours": 2.693056,
+      "ell_at_n_min": 138.94566046595355
+     }
+    },
+    "recorded": {
+     "one_setting_qopt": {
+      "ell": 417247.81903285376,
+      "signatures": 3023.534920527926
+     },
+     "one_setting_qopt_cascade": {
+      "ell": 373574.8683997047,
+      "signatures": 2707.064263765976
+     },
+     "independent_qopt": {
+      "ell": 299563.8019246297,
+      "signatures": 2170.752187859636
+     },
+     "independent_qopt_cascade": {
+      "ell": 265706.06572997203,
+      "signatures": 1925.4062734055944
+     },
+     "two_setting_qopt": {
+      "ell": 90829.75351936667,
+      "signatures": 658.1866197055556
+     }
+    }
+   },
+   "atom11km": {
+    "rows": {
+     "one_setting_q0": {
+      "n_min": 510208.0,
+      "hours": 263.5511523178808,
+      "ell_at_n_min": 138.54005680370392
+     },
+     "one_setting_qopt": {
+      "n_min": 497453.0,
+      "hours": 256.96247682119207,
+      "ell_at_n_min": 141.42726164717533
+     },
+     "two_setting_q0": {
+      "n_min": 1663970.0,
+      "hours": 859.5341721854305,
+      "ell_at_n_min": 140.8479965358856
+     },
+     "two_setting_qopt": {
+      "n_min": 1614039.0,
+      "hours": 833.7420000000001,
+      "ell_at_n_min": 138.73046396019345
+     },
+     "independent_q0": {
+      "n_min": 702737.0,
+      "hours": 363.0032185430464,
+      "ell_at_n_min": 138.27828086540467
+     },
+     "independent_qopt": {
+      "n_min": 683925.0,
+      "hours": 353.285761589404,
+      "ell_at_n_min": 142.57166799598417
+     },
+     "seeded_qopt": {
+      "n_min": 683102.0,
+      "hours": 352.86063576158944,
+      "ell_at_n_min": 138.09927630483435
+     },
+     "two_setting_iso_qopt": {
+      "n_min": 1179703.0,
+      "hours": 609.3830066225166,
+      "ell_at_n_min": 139.1184483632751
+     }
+    },
+    "recorded": {
+     "one_setting_qopt": {
+      "ell": 126923.9325948026,
+      "signatures": 919.7386419913231
+     },
+     "one_setting_qopt_cascade": {
+      "ell": 70962.96983513821,
+      "signatures": 514.2244190952044
+     },
+     "independent_qopt": {
+      "ell": 70998.4981775131,
+      "signatures": 514.4818708515443
+     },
+     "independent_qopt_cascade": {
+      "ell": 26007.098596516647,
+      "signatures": 188.45723620664236
+     },
+     "two_setting_qopt": {
+      "ell": -23054.50063714387,
+      "signatures": 0.0
+     }
+    }
+   },
+   "atom400m": {
+    "rows": {
+     "one_setting_q0": {
+      "n_min": 7342944.0,
+      "hours": 164787.79174147217,
+      "ell_at_n_min": 140.71365802027867
+     },
+     "one_setting_qopt": {
+      "n_min": 5391352.0,
+      "hours": 120990.84380610412,
+      "ell_at_n_min": 141.41121197040775
+     },
+     "two_setting_q0": {
+      "n_min": 16604804.0,
+      "hours": 372639.2280071813,
+      "ell_at_n_min": 141.94882383971708
+     },
+     "two_setting_qopt": {
+      "n_min": 12549912.0,
+      "hours": 281640.7540394973,
+      "ell_at_n_min": 150.7517853404861
+     },
+     "independent_q0": {
+      "n_min": 9157625.0,
+      "hours": 205512.23070017953,
+      "ell_at_n_min": 159.75680598575855
+     },
+     "independent_qopt": {
+      "n_min": 6708037.0,
+      "hours": 150539.42998204668,
+      "ell_at_n_min": 146.6500360064092
+     },
+     "seeded_qopt": {
+      "n_min": 5391327.0,
+      "hours": 120990.28276481149,
+      "ell_at_n_min": 143.22962074748648
+     },
+     "two_setting_iso_qopt": {
+      "n_min": 12549912.0,
+      "hours": 281640.7540394973,
+      "ell_at_n_min": 150.7517853404861
+     }
+    },
+    "recorded": {
+     "one_setting_qopt": {
+      "ell": -3074.947630676208,
+      "signatures": 0.0
+     },
+     "one_setting_qopt_cascade": {
+      "ell": -3739.909203854847,
+      "signatures": 0.0
+     },
+     "independent_qopt": {
+      "ell": -3075.822707293353,
+      "signatures": 0.0
+     },
+     "independent_qopt_cascade": {
+      "ell": -3739.844779073614,
+      "signatures": 0.0
+     },
+     "two_setting_qopt": {
+      "ell": -3192.251896624036,
+      "signatures": 0.0
+     }
+    }
+   }
+  },
+  "eat_experiments": {
+   "ion": {
+    "one_setting_p0": {
+     "n_min": 1149139.0,
+     "ell_at_n_min": 138.0254729982394,
+     "p": 0.0,
+     "gamma": 0.09043509366936023,
+     "wall_s": 8.916623592376709,
+     "hours": 6.128741333333333
+    },
+    "one_setting_popt": {
+     "n_min": 1149144.0,
+     "ell_at_n_min": 139.05310523530218,
+     "p": 0.0,
+     "gamma": 0.09043498352843361,
+     "wall_s": 64.605153799057,
+     "hours": 6.128768
+    }
+   },
+   "atom11km": {
+    "one_setting_p0": {
+     "n_min": 2630110.0,
+     "ell_at_n_min": 139.88448197312985,
+     "p": 0.0,
+     "gamma": 0.06967415198127304,
+     "wall_s": 9.742484092712402,
+     "hours": 1358.599867549669
+    },
+    "one_setting_popt": {
+     "n_min": 2589896.0,
+     "ell_at_n_min": 139.7953976213453,
+     "p": 0.0038448712940464236,
+     "gamma": 0.06821280154856885,
+     "wall_s": 150.19299960136414,
+     "hours": 1337.827072847682
+    }
+   },
+   "atom400m": {
+    "one_setting_p0": {
+     "n_min": 32739103.0,
+     "ell_at_n_min": 138.00645932403725,
+     "p": 0.0,
+     "gamma": 0.034474881727346425,
+     "wall_s": 8.984882354736328,
+     "hours": 734719.5466786355,
+     "polished_from": 32739255.0
+    },
+    "one_setting_popt": {
+     "n_min": 25500234.0,
+     "ell_at_n_min": 138.05303083394986,
+     "p": 0.0326084531472222,
+     "gamma": 0.03190247480471224,
+     "wall_s": 127.03982329368591,
+     "hours": 572267.3698384201,
+     "polished_from": 25500328.0
+    }
+   }
+  },
+  "eat_recorded": {
+   "ion": {
+    "n": 1500000.0,
+    "ell": 78492.64223906578,
+    "p": 0.0,
+    "signatures": 568.7872626019259
+   },
+   "atom11km": {
+    "n": 1208000.0,
+    "ell": -152669.90594641372,
+    "p": 0.008426134323018598,
+    "signatures": 0.0
+   }
+  },
+  "eat_two_setting_11km": {
+   "Q_x_state_p0": {
+    "n_min": 9024780.0,
+    "ell_at_n_min": 140.994531225761,
+    "p": 0.0,
+    "gamma": 0.03347204552952607,
+    "wall_s": 15.542304039001465,
+    "hours": 4661.806887417219
+   },
+   "Q_x_state_popt": {
+    "n_min": 8861517.0,
+    "ell_at_n_min": 139.27993614983146,
+    "p": 0.0043880261466333805,
+    "gamma": 0.0327066738496917,
+    "wall_s": 127.30972504615784,
+    "hours": 4577.472357615894
+   },
+   "Q_x_eq_Q_p0": {
+    "n_min": 6666796.0,
+    "ell_at_n_min": 140.50627681938798,
+    "p": 0.0,
+    "gamma": 0.036117493229435166,
+    "wall_s": 10.796797037124634,
+    "hours": 3443.775417218543
+   },
+   "Q_x_eq_Q_popt": {
+    "n_min": 6666795.0,
+    "ell_at_n_min": 140.42923420236778,
+    "p": 0.0,
+    "gamma": 0.0361174935877288,
+    "wall_s": 69.18647909164429,
+    "hours": 3443.7749006622516
+   }
+  },
+  "crosscheck_hahn": {
+   "n": 1500000.0,
+   "ell_renyi": 300848.60381452495,
+   "alpha": 1.0004887890924916,
+   "ell_EC": 296517.2928578337,
+   "nadlinger_reported_ell": 95628,
+   "ratio": 3.146030491221451
+  },
+  "lu": {
+   "gamma_A": 0.26,
+   "gamma_B": 0.13,
+   "gamma": 0.033800000000000004,
+   "sift": 0.7833781825708963,
+   "published": {
+    "1e-05": 0.112,
+    "1e-15": 0.075,
+    "eat_1e-05": 0.034
+   },
+   "threshold_as_run": {
+    "n_min": 708206.0,
+    "ell_at_n_min": 139.46028513865895,
+    "target": 138,
+    "params": {
+     "ell": 139.46028513865895,
+     "n": 708206.0,
+     "gamma": 0.033800000000000004,
+     "alpha": 1.0008292565241723,
+     "q": 0.0,
+     "w_star": 0.7994230867115351,
+     "h_alpha": 0.31635762686679264,
+     "terms": {
+      "n_h_alpha": 224046.36949282375,
+      "test_rounds": -24394.999999999956,
+      "error_correction": -158150.67727513038,
+      "error_verification": -64.0,
+      "privacy_amplification": -41299.23193255476,
+      "const": 2.0
+     },
+     "info": {
+      "h_alpha_grid": 0.3163576410043112,
+      "h_alpha_certified": 0.31635762686679264,
+      "h_alpha_upper": 0.31635764098672875,
+      "certified": 1.0,
+      "certification_gap_bits": 0.009999823472169656,
+      "bnb_levels": 20
+     },
+     "completeness_union": 0.003980647889290609
+    },
+    "wall_s": 1.822648048400879,
+    "hours": 365.82826490066225
+   }
+  },
+  "lu_rows": {
+   "lu_as_run/1e-05/3sigma": {
+    "eps_sound": 1e-05,
+    "tails": "3sigma",
+    "ell": 103186.45985473733,
+    "bits_per_event": 0.08541925484663686,
+    "signatures": 747.7279699618647
+   },
+   "independent_opt/1e-05/3sigma": {
+    "eps_sound": 1e-05,
+    "tails": "3sigma",
+    "ell": 108715.45774750743,
+    "bits_per_event": 0.08999623985720814,
+    "signatures": 787.7931720833872
+   },
+   "one_setting_opt/1e-05/3sigma": {
+    "eps_sound": 1e-05,
+    "tails": "3sigma",
+    "ell": 167644.0911552791,
+    "bits_per_event": 0.13877822115503238,
+    "signatures": 1214.8122547483993
+   },
+   "lu_as_run/1e-05/hahn": {
+    "eps_sound": 1e-05,
+    "tails": "hahn",
+    "ell": 92100.59235431075,
+    "bits_per_event": 0.0762422122138334,
+    "signatures": 667.3955967703678
+   },
+   "independent_opt/1e-05/hahn": {
+    "eps_sound": 1e-05,
+    "tails": "hahn",
+    "ell": 96352.19328338648,
+    "bits_per_event": 0.0797617494067769,
+    "signatures": 698.2042991549745
+   },
+   "one_setting_opt/1e-05/hahn": {
+    "eps_sound": 1e-05,
+    "tails": "hahn",
+    "ell": 154458.8270103178,
+    "bits_per_event": 0.12786326739264717,
+    "signatures": 1119.2668623936072
+   },
+   "lu_as_run/1e-05/announced_tests": {
+    "eps_sound": 1e-05,
+    "tails": "announced_tests",
+    "ell": 130365.17515424691,
+    "bits_per_event": 0.10791819135285341,
+    "signatures": 944.6751822771515
+   },
+   "independent_opt/1e-05/announced_tests": {
+    "eps_sound": 1e-05,
+    "tails": "announced_tests",
+    "ell": 131610.42484149485,
+    "bits_per_event": 0.10894902718666792,
+    "signatures": 953.6987307354699
+   },
+   "one_setting_opt/1e-05/announced_tests": {
+    "eps_sound": 1e-05,
+    "tails": "announced_tests",
+    "ell": 200365.9945877216,
+    "bits_per_event": 0.16586588955937218,
+    "signatures": 1451.9274970124752
+   },
+   "lu_as_run/5e-11/3sigma": {
+    "eps_sound": 5e-11,
+    "tails": "3sigma",
+    "ell": 68225.28996120865,
+    "bits_per_event": 0.056477889040735633,
+    "signatures": 494.3861591391931
+   },
+   "independent_opt/5e-11/3sigma": {
+    "eps_sound": 5e-11,
+    "tails": "3sigma",
+    "ell": 70998.4981775131,
+    "bits_per_event": 0.05877359120655058,
+    "signatures": 514.4818708515443
+   },
+   "one_setting_opt/5e-11/3sigma": {
+    "eps_sound": 5e-11,
+    "tails": "3sigma",
+    "ell": 126923.9325948026,
+    "bits_per_event": 0.10506948062483658,
+    "signatures": 919.7386419913231
+   },
+   "lu_as_run/5e-11/hahn": {
+    "eps_sound": 5e-11,
+    "tails": "hahn",
+    "ell": 56946.44366431193,
+    "bits_per_event": 0.04714109574860259,
+    "signatures": 412.6553888718256
+   },
+   "independent_opt/5e-11/hahn": {
+    "eps_sound": 5e-11,
+    "tails": "hahn",
+    "ell": 59603.76231829271,
+    "bits_per_event": 0.049340862846268804,
+    "signatures": 431.9113211470486
+   },
+   "one_setting_opt/5e-11/hahn": {
+    "eps_sound": 5e-11,
+    "tails": "hahn",
+    "ell": 114383.40974215977,
+    "bits_per_event": 0.09468825309781438,
+    "signatures": 828.865287986665
+   },
+   "lu_as_run/5e-11/announced_tests": {
+    "eps_sound": 5e-11,
+    "tails": "announced_tests",
+    "ell": 95404.00526071823,
+    "bits_per_event": 0.07897682554695218,
+    "signatures": 691.3333714544799
+   },
+   "independent_opt/5e-11/announced_tests": {
+    "eps_sound": 5e-11,
+    "tails": "announced_tests",
+    "ell": 98045.8071125256,
+    "bits_per_event": 0.08116374760970661,
+    "signatures": 710.4768631342434
+   },
+   "one_setting_opt/5e-11/announced_tests": {
+    "eps_sound": 5e-11,
+    "tails": "announced_tests",
+    "ell": 165389.31082539816,
+    "bits_per_event": 0.1369116811468528,
+    "signatures": 1198.4732668507113
+   },
+   "lu_as_run/1e-15/3sigma": {
+    "eps_sound": 1e-15,
+    "tails": "3sigma",
+    "ell": 45284.80728762114,
+    "bits_per_event": 0.037487423251342,
+    "signatures": 328.15077744652996
+   },
+   "independent_opt/1e-15/3sigma": {
+    "eps_sound": 1e-15,
+    "tails": "3sigma",
+    "ell": 48140.88203511956,
+    "bits_per_event": 0.03985172353900626,
+    "signatures": 348.8469712689823
+   },
+   "one_setting_opt/1e-15/3sigma": {
+    "eps_sound": 1e-15,
+    "tails": "3sigma",
+    "ell": 101610.92763916105,
+    "bits_per_event": 0.08411500632380882,
+    "signatures": 736.311069848993
+   },
+   "lu_as_run/1e-15/hahn": {
+    "eps_sound": 1e-15,
+    "tails": "hahn",
+    "ell": 34030.90317675042,
+    "bits_per_event": 0.028171277464197366,
+    "signatures": 246.60074765761175
+   },
+   "independent_opt/1e-15/hahn": {
+    "eps_sound": 1e-15,
+    "tails": "hahn",
+    "ell": 37398.730817688054,
+    "bits_per_event": 0.030959214253053025,
+    "signatures": 271.0052957803482
+   },
+   "one_setting_opt/1e-15/hahn": {
+    "eps_sound": 1e-15,
+    "tails": "hahn",
+    "ell": 89586.9575890864,
+    "bits_per_event": 0.07416138873268742,
+    "signatures": 649.180852094829
+   },
+   "lu_as_run/1e-15/announced_tests": {
+    "eps_sound": 1e-15,
+    "tails": "announced_tests",
+    "ell": 72463.52258713072,
+    "bits_per_event": 0.05998635975755854,
+    "signatures": 525.0979897618168
+   },
+   "independent_opt/1e-15/announced_tests": {
+    "eps_sound": 1e-15,
+    "tails": "announced_tests",
+    "ell": 77776.19375146198,
+    "bits_per_event": 0.06438426635054799,
+    "signatures": 563.5956068946521
+   },
+   "one_setting_opt/1e-15/announced_tests": {
+    "eps_sound": 1e-15,
+    "tails": "announced_tests",
+    "ell": 143208.55495755697,
+    "bits_per_event": 0.11855012827612332,
+    "signatures": 1037.743151866355
+   }
+  },
+  "targets": {
+   "ion_one_setting_nm_1e3": {
+    "key_bits": 138,
+    "n_min": 211967.0,
+    "hours": 1.1304906666666668,
+    "signatures_recorded": 3023.534920527926
+   },
+   "ion_two_setting_nm_1e3": {
+    "key_bits": 138,
+    "n_min": 697306.0,
+    "hours": 3.7189653333333332,
+    "signatures_recorded": 658.1866197055556
+   },
+   "ion_one_setting_nm_1e6": {
+    "key_bits": 168,
+    "n_min": 212140.0,
+    "hours": 1.1314133333333334,
+    "signatures_recorded": 2483.617970433653
+   },
+   "ion_one_setting_nm_1e9": {
+    "key_bits": 198,
+    "n_min": 212291.0,
+    "hours": 1.1322186666666667,
+    "signatures_recorded": 2107.312217337645
+   },
+   "ion_one_setting_bian_82": {
+    "key_bits": 246,
+    "n_min": 212545.0,
+    "hours": 1.1335733333333333,
+    "signatures_recorded": 1696.1293456620072
+   },
+   "ion_two_setting_bian_82": {
+    "key_bits": 246,
+    "n_min": 698575.0,
+    "hours": 3.7257333333333333,
+    "signatures_recorded": 369.2266403226287
+   },
+   "atom11km_one_setting_nm_1e3": {
+    "key_bits": 138,
+    "n_min": 497453.0,
+    "hours": 256.96247682119207,
+    "signatures_recorded": 919.7386419913231
+   },
+   "atom11km_two_setting_nm_1e3": {
+    "key_bits": 138,
+    "n_min": 1614039.0,
+    "hours": 833.7420000000001,
+    "signatures_recorded": 0.0
+   },
+   "atom11km_one_setting_nm_1e6": {
+    "key_bits": 168,
+    "n_min": 497672.0,
+    "hours": 257.0756026490066,
+    "signatures_recorded": 755.4995987785869
+   },
+   "atom11km_one_setting_nm_1e9": {
+    "key_bits": 198,
+    "n_min": 497890.0,
+    "hours": 257.1882119205298,
+    "signatures_recorded": 641.029962600013
+   },
+   "atom11km_one_setting_bian_82": {
+    "key_bits": 246,
+    "n_min": 498238.0,
+    "hours": 257.3679735099338,
+    "signatures_recorded": 515.9509455073277
+   },
+   "atom11km_two_setting_bian_82": {
+    "key_bits": 246,
+    "n_min": 1615694.0,
+    "hours": 834.5969006622516,
+    "signatures_recorded": 0.0
+   }
+  },
+  "n_s_of_n_m": {
+   "1000": 46,
+   "8000": 49,
+   "1e+06": 56,
+   "8e+06": 59,
+   "1e+09": 66
+  },
+  "memory": {
+   "0.001": {
+    "T2_s": 0.001,
+    "S": 2.543587982258579,
+    "n_min": 866195.0,
+    "signatures_recorded": 296.3340381649242,
+    "signatures_recorded_cascade": 0.0
+   },
+   "0.01": {
+    "T2_s": 0.01,
+    "S": 2.604988719930171,
+    "n_min": 524466.0,
+    "signatures_recorded": 852.182312603405,
+    "signatures_recorded_cascade": 444.82974415695605
+   },
+   "0.0275": {
+    "T2_s": 0.0275,
+    "S": 2.609446062288187,
+    "n_min": 507082.0,
+    "signatures_recorded": 894.9012136156175,
+    "signatures_recorded_cascade": 488.8637035931292
+   },
+   "0.1": {
+    "T2_s": 0.1,
+    "S": 2.611297097903881,
+    "n_min": 500072.0,
+    "signatures_recorded": 912.891116029373,
+    "signatures_recorded_cascade": 507.2613304085944
+   }
+  }
+ },
+ "key_bits_per_signature": 138
+}

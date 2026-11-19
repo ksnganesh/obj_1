@@ -1,0 +1,339 @@
+{
+ "protocol": "two_setting",
+ "n": 4000000,
+ "seed": 2026,
+ "pa": "toeplitz",
+ "sampling": "multinomial",
+ "signatures_at_shannon_limit": 1431,
+ "operating_point": {
+  "S": 2.612,
+  "Q": 0.0285,
+  "Q_x": 0.04801854377036893
+ },
+ "distribution": {
+  "accepted": true,
+  "signatures": 632,
+  "alice_bob": {
+   "accepted": true,
+   "reason": "",
+   "steps": {
+    "1 parameters": {
+     "protocol": "two_setting",
+     "n": 4000000,
+     "gamma": 0.018121435637089397,
+     "alpha": 1.0003689390833304,
+     "p": 0.0007817787103803559,
+     "EC_max": 719730.0785489924,
+     "ell_key": 87264,
+     "acceptance_lo": [
+      0,
+      59182,
+      3926713
+     ],
+     "acceptance_up": [
+      12913,
+      4000000,
+      4000000
+     ]
+    },
+    "2 data acquisition": {
+     "rounds": 4000000,
+     "test_rounds": 72553,
+     "generation_rounds": 3927447
+    },
+    "3 sifting": {
+     "key_rounds": 1963419,
+     "discarded_generation_rounds": 1964028
+    },
+    "4 noisy preprocessing": {
+     "flipped_bits": 1560,
+     "qber_key": 0.03883990121313892
+    },
+    "5 error correction": {
+     "bits_disclosed": 605793,
+     "EC_max": 719730.0785489924,
+     "within_EC_max": true,
+     "errors_left_after_cascade": 0,
+     "tag_bits": 64,
+     "tag_match": true
+    },
+    "6 parameter estimation": {
+     "lost": 12424,
+     "won": 60129,
+     "generation": 3927447,
+     "win_frequency": 0.8287596653480903,
+     "passed": true,
+     "violations": []
+    },
+    "7 privacy amplification": {
+     "family": "toeplitz",
+     "input_bits": 1963419,
+     "seed_bits": 2050682,
+     "key_bits": 87264,
+     "keys_agree": true
+    }
+   }
+  },
+  "alice_charlie": {
+   "accepted": true,
+   "reason": "",
+   "steps": {
+    "1 parameters": {
+     "protocol": "two_setting",
+     "n": 4000000,
+     "gamma": 0.018121435637089397,
+     "alpha": 1.0003689390833304,
+     "p": 0.0007817787103803559,
+     "EC_max": 719730.0785489924,
+     "ell_key": 87264,
+     "acceptance_lo": [
+      0,
+      59182,
+      3926713
+     ],
+     "acceptance_up": [
+      12913,
+      4000000,
+      4000000
+     ]
+    },
+    "2 data acquisition": {
+     "rounds": 4000000,
+     "test_rounds": 72881,
+     "generation_rounds": 3927119
+    },
+    "3 sifting": {
+     "key_rounds": 1966020,
+     "discarded_generation_rounds": 1961099
+    },
+    "4 noisy preprocessing": {
+     "flipped_bits": 1547,
+     "qber_key": 0.03896552425712862
+    },
+    "5 error correction": {
+     "bits_disclosed": 608368,
+     "EC_max": 719730.0785489924,
+     "within_EC_max": true,
+     "errors_left_after_cascade": 0,
+     "tag_bits": 64,
+     "tag_match": true
+    },
+    "6 parameter estimation": {
+     "lost": 12593,
+     "won": 60288,
+     "generation": 3927119,
+     "win_frequency": 0.8272114817304922,
+     "passed": true,
+     "violations": []
+    },
+    "7 privacy amplification": {
+     "family": "toeplitz",
+     "input_bits": 1966020,
+     "seed_bits": 2053283,
+     "key_bits": 87264,
+     "keys_agree": true
+    }
+   }
+  }
+ },
+ "messaging": [
+  {
+   "document": "Pay Bob 100 euro, invoice 42",
+   "bits": 224,
+   "segment": 0,
+   "signature": "0x014fbf6e7c89",
+   "bob_accepts": true,
+   "charlie_accepts": true,
+   "bob_digests": [
+    "0x0e904458edfb",
+    "0x0e904458edfb"
+   ],
+   "charlie_digests": [
+    "0x0e904458edfb",
+    "0x0e904458edfb"
+   ],
+   "messages": [
+    {
+     "step": "1 signing",
+     "from": "Alice",
+     "to": "Bob",
+     "channel": "public",
+     "fields": [
+      "Doc",
+      "Sig"
+     ]
+    },
+    {
+     "step": "2 verification",
+     "from": "Bob",
+     "to": "Charlie",
+     "channel": "authenticated",
+     "fields": [
+      "Doc",
+      "Sig",
+      "Y_b"
+     ]
+    },
+    {
+     "step": "2 verification",
+     "from": "Charlie",
+     "to": "Bob",
+     "channel": "authenticated",
+     "fields": [
+      "X_c",
+      "Y_c",
+      "Z_c"
+     ]
+    },
+    {
+     "step": "2 verification",
+     "from": "Bob",
+     "to": "Charlie",
+     "channel": "authenticated",
+     "fields": [
+      "decision"
+     ]
+    }
+   ]
+  },
+  {
+   "document": "Meeting moved to 3 pm",
+   "bits": 168,
+   "segment": 1,
+   "signature": "0x23ac645c4ed4",
+   "bob_accepts": true,
+   "charlie_accepts": true,
+   "bob_digests": [
+    "0x3a87bf403e1e",
+    "0x3a87bf403e1e"
+   ],
+   "charlie_digests": [
+    "0x3a87bf403e1e",
+    "0x3a87bf403e1e"
+   ],
+   "messages": [
+    {
+     "step": "1 signing",
+     "from": "Alice",
+     "to": "Bob",
+     "channel": "public",
+     "fields": [
+      "Doc",
+      "Sig"
+     ]
+    },
+    {
+     "step": "2 verification",
+     "from": "Bob",
+     "to": "Charlie",
+     "channel": "authenticated",
+     "fields": [
+      "Doc",
+      "Sig",
+      "Y_b"
+     ]
+    },
+    {
+     "step": "2 verification",
+     "from": "Charlie",
+     "to": "Bob",
+     "channel": "authenticated",
+     "fields": [
+      "X_c",
+      "Y_c",
+      "Z_c"
+     ]
+    },
+    {
+     "step": "2 verification",
+     "from": "Bob",
+     "to": "Charlie",
+     "channel": "authenticated",
+     "fields": [
+      "decision"
+     ]
+    }
+   ]
+  },
+  {
+   "document": "Contract 7 approved by Alice",
+   "bits": 224,
+   "segment": 2,
+   "signature": "0x0d1f1b67c988",
+   "bob_accepts": true,
+   "charlie_accepts": true,
+   "bob_digests": [
+    "0x2e12097fec12",
+    "0x2e12097fec12"
+   ],
+   "charlie_digests": [
+    "0x2e12097fec12",
+    "0x2e12097fec12"
+   ],
+   "messages": [
+    {
+     "step": "1 signing",
+     "from": "Alice",
+     "to": "Bob",
+     "channel": "public",
+     "fields": [
+      "Doc",
+      "Sig"
+     ]
+    },
+    {
+     "step": "2 verification",
+     "from": "Bob",
+     "to": "Charlie",
+     "channel": "authenticated",
+     "fields": [
+      "Doc",
+      "Sig",
+      "Y_b"
+     ]
+    },
+    {
+     "step": "2 verification",
+     "from": "Charlie",
+     "to": "Bob",
+     "channel": "authenticated",
+     "fields": [
+      "X_c",
+      "Y_c",
+      "Z_c"
+     ]
+    },
+    {
+     "step": "2 verification",
+     "from": "Bob",
+     "to": "Charlie",
+     "channel": "authenticated",
+     "fields": [
+      "decision"
+     ]
+    }
+   ]
+  }
+ ],
+ "security_checks": {
+  "forgery_guess": {
+   "altered": "Pay Bob 900 euro, invoice 42",
+   "charlie_accepts": false
+  },
+  "forgery_knowing_Xc_Zc": {
+   "altered": "Pay Bob 900 euro, invoice 42",
+   "charlie_accepts": true
+  },
+  "repudiation_random_sig": {
+   "bob": false,
+   "charlie": false,
+   "repudiated": false
+  },
+  "repudiation_corrupted_Yb": {
+   "bob": true,
+   "charlie": false,
+   "repudiated": true
+  }
+ },
+ "wall_s": 10.08081865310669
+}

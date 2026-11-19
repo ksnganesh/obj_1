@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below (and the accompanying article once published)."
+title: "diqds: certification limits, trusted-randomness accounting and finite-size thresholds for device-independent quantum digital signatures"
+type: software
+authors:
+  - alias: "ksnganesh"
+repository-code: "https://github.com/ksnganesh/obj_1"
+license: Apache-2.0
+version: "0.5.0"
+date-released: "2026-11-19"
+keywords:
+  - device-independent quantum cryptography
+  - quantum digital signatures
+  - Rényi entropy accumulation
+  - trusted randomness
+  - privacy amplification

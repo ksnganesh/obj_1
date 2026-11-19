@@ -1,0 +1,1503 @@
+{
+ "numbers": {
+  "vmin_repro_maxdiff": "0.0012",
+  "gain_q0": "4.5–6.0",
+  "gain_opt": "4.8–6.0",
+  "set_ratio": "2.3–2.5",
+  "ion_one": "2.12×10^{5}",
+  "ion_one_q0": "2.13×10^{5}",
+  "ion_one_hours": "1.1",
+  "ion_ind": "3.03×10^{5}",
+  "ion_ind_q0": "3.05×10^{5}",
+  "ion_two": "6.97×10^{5}",
+  "ion_two_iso": "5.05×10^{5}",
+  "ion_seeded": "2.94×10^{5}",
+  "ion_eat": "1.15×10^{6}",
+  "ion_eat_p0": "1.15×10^{6}",
+  "ion_eat_hours": "6.1",
+  "ion_eat_p0_hours": "6.1",
+  "ion_sigs": "3,023",
+  "ion_sigs_cascade": "2,707",
+  "ion_sigs_ind": "2,170",
+  "ion_sigs_ind_cascade": "1,925",
+  "ion_sigs_two": "658",
+  "ion_one_hours_raw": 1.1304906666666668,
+  "ion_Qx": "3.91 %",
+  "ion_ell_one": "139.9",
+  "ion_one_over_eat": "0.18",
+  "atom11km_one": "4.97×10^{5}",
+  "atom11km_one_q0": "5.10×10^{5}",
+  "atom11km_one_hours": "257",
+  "atom11km_ind": "6.84×10^{5}",
+  "atom11km_ind_q0": "7.03×10^{5}",
+  "atom11km_two": "1.61×10^{6}",
+  "atom11km_two_iso": "1.18×10^{6}",
+  "atom11km_seeded": "6.83×10^{5}",
+  "atom11km_eat": "2.59×10^{6}",
+  "atom11km_eat_p0": "2.63×10^{6}",
+  "atom11km_eat_hours": "1,338",
+  "atom11km_eat_p0_hours": "1,359",
+  "atom11km_sigs": "919",
+  "atom11km_sigs_cascade": "514",
+  "atom11km_sigs_ind": "514",
+  "atom11km_sigs_ind_cascade": "188",
+  "atom11km_sigs_two": "0",
+  "atom11km_one_hours_raw": 256.96247682119207,
+  "atom11km_Qx": "4.80 %",
+  "atom11km_ell_one": "141.4",
+  "atom11km_one_over_eat": "0.19",
+  "atom400m_one": "5.39×10^{6}",
+  "atom400m_one_q0": "7.34×10^{6}",
+  "atom400m_one_hours": "1.2×10^{5}",
+  "atom400m_ind": "6.71×10^{6}",
+  "atom400m_ind_q0": "9.16×10^{6}",
+  "atom400m_two": "1.25×10^{7}",
+  "atom400m_two_iso": "1.25×10^{7}",
+  "atom400m_seeded": "5.39×10^{6}",
+  "atom400m_eat": "2.55×10^{7}",
+  "atom400m_eat_p0": "3.27×10^{7}",
+  "atom400m_eat_hours": "5.7×10^{5}",
+  "atom400m_eat_p0_hours": "7.3×10^{5}",
+  "atom400m_sigs": "0",
+  "atom400m_sigs_cascade": "0",
+  "atom400m_sigs_ind": "0",
+  "atom400m_sigs_ind_cascade": "0",
+  "atom400m_sigs_two": "0",
+  "atom400m_one_hours_raw": 120990.84380610412,
+  "atom400m_Qx": "7.80 %",
+  "atom400m_ell_one": "141.4",
+  "atom400m_one_over_eat": "0.21",
+  "ion_eat_sigs": "568",
+  "atom11km_eat_sigs": "0",
+  "ion_sig_ratio": "5.3",
+  "eat_two11_Q_x_state_p0": "9.02×10^{6}",
+  "eat_two11_Q_x_state_popt": "8.86×10^{6}",
+  "eat_two11_Q_x_eq_Q_p0": "6.67×10^{6}",
+  "eat_two11_Q_x_eq_Q_popt": "6.67×10^{6}",
+  "lu_lu_as_run_1e-05": "0.085",
+  "lu_lu_as_run_1e-05_sigs": "747",
+  "lu_lu_as_run_1e-05_hahn": "0.076",
+  "lu_lu_as_run_1e-05_ann": "0.108",
+  "lu_independent_opt_1e-05": "0.090",
+  "lu_independent_opt_1e-05_sigs": "787",
+  "lu_independent_opt_1e-05_hahn": "0.080",
+  "lu_independent_opt_1e-05_ann": "0.109",
+  "lu_one_setting_opt_1e-05": "0.139",
+  "lu_one_setting_opt_1e-05_sigs": "1,214",
+  "lu_one_setting_opt_1e-05_hahn": "0.128",
+  "lu_one_setting_opt_1e-05_ann": "0.166",
+  "lu_lu_as_run_5e-11": "0.056",
+  "lu_lu_as_run_5e-11_sigs": "494",
+  "lu_lu_as_run_5e-11_hahn": "0.047",
+  "lu_lu_as_run_5e-11_ann": "0.079",
+  "lu_independent_opt_5e-11": "0.059",
+  "lu_independent_opt_5e-11_sigs": "514",
+  "lu_independent_opt_5e-11_hahn": "0.049",
+  "lu_independent_opt_5e-11_ann": "0.081",
+  "lu_one_setting_opt_5e-11": "0.105",
+  "lu_one_setting_opt_5e-11_sigs": "919",
+  "lu_one_setting_opt_5e-11_hahn": "0.095",
+  "lu_one_setting_opt_5e-11_ann": "0.137",
+  "lu_lu_as_run_1e-15": "0.037",
+  "lu_lu_as_run_1e-15_sigs": "328",
+  "lu_lu_as_run_1e-15_hahn": "0.028",
+  "lu_lu_as_run_1e-15_ann": "0.060",
+  "lu_independent_opt_1e-15": "0.040",
+  "lu_independent_opt_1e-15_sigs": "348",
+  "lu_independent_opt_1e-15_hahn": "0.031",
+  "lu_independent_opt_1e-15_ann": "0.064",
+  "lu_one_setting_opt_1e-15": "0.084",
+  "lu_one_setting_opt_1e-15_sigs": "736",
+  "lu_one_setting_opt_1e-15_hahn": "0.074",
+  "lu_one_setting_opt_1e-15_ann": "0.119",
+  "lu_threshold_as_run": "7.08×10^{5}",
+  "lu_gain_one_vs_ind_5e11": "79",
+  "lu_published_sigs": "656–980",
+  "hahn_ell": "300,849",
+  "hahn_ratio": "3.15",
+  "nad_sigs": "692",
+  "hahn_sigs": "2,180",
+  "jitter_rel": "2×10^{−4}",
+  "jitter_bits": "9",
+  "jitter_two_rel": "7×10^{−5}",
+  "jitter_two_bits": "6",
+  "polish_ion_two": "551",
+  "polish_max_rel": "6×10^{−4}",
+  "polish_count": "24",
+  "eps_factor": "1.67",
+  "f12_factor_11km": "1.41",
+  "a11_f12": "7.00×10^{5}",
+  "a11_cascade": "7.23×10^{5}",
+  "ion_cascade": "2.56×10^{5}",
+  "tails_range": "−5 % to +10 %",
+  "worst_ion": "2.69×10^{5}",
+  "worst_11km": "8.33×10^{5}",
+  "T2_cons_ms": "27.5",
+  "T2_S": "2.609",
+  "T2_nmin": "5.07×10^{5}",
+  "T2_sigs": "894",
+  "T2_sigs_cascade": "488",
+  "T2_0.001_S": "2.544",
+  "T2_0.001_nmin": "8.66×10^{5}",
+  "T2_0.01_S": "2.605",
+  "T2_0.01_nmin": "5.24×10^{5}",
+  "T2_0.1_S": "2.611",
+  "T2_0.1_nmin": "5.00×10^{5}",
+  "ion_nm_1e6_nmin": "2.12×10^{5}",
+  "ion_nm_1e6_sigs": "2,483",
+  "ion_nm_1e9_nmin": "2.12×10^{5}",
+  "ion_nm_1e9_sigs": "2,107",
+  "ion_bian_82_nmin": "2.13×10^{5}",
+  "ion_bian_82_sigs": "1,696",
+  "ion_two_bian_nmin": "6.99×10^{5}",
+  "ion_bian_shift": "0.3",
+  "atom11km_nm_1e6_nmin": "4.98×10^{5}",
+  "atom11km_nm_1e6_sigs": "755",
+  "atom11km_nm_1e9_nmin": "4.98×10^{5}",
+  "atom11km_nm_1e9_sigs": "641",
+  "atom11km_bian_82_nmin": "4.98×10^{5}",
+  "atom11km_bian_82_sigs": "515",
+  "atom11km_two_bian_nmin": "1.62×10^{6}",
+  "atom11km_bian_shift": "0.2",
+  "n_s_of_n_m": {
+   "1000": 46,
+   "8000": 49,
+   "1e+06": 56,
+   "8e+06": 59,
+   "1e+09": 66
+  },
+  "mis_ion_0_Qx": "3.91 %",
+  "mis_ion_0_nmin": "6.97×10^{5}",
+  "mis_ion_5_Qx": "4.27 %",
+  "mis_ion_5_nmin": "7.29×10^{5}",
+  "mis_ion_10_Qx": "5.35 %",
+  "mis_ion_10_nmin": "8.28×10^{5}",
+  "mis_atom11km_0_Qx": "4.80 %",
+  "mis_atom11km_0_nmin": "1.61×10^{6}",
+  "mis_atom11km_5_Qx": "5.15 %",
+  "mis_atom11km_5_nmin": "1.71×10^{6}",
+  "mis_atom11km_10_Qx": "6.20 %",
+  "mis_atom11km_10_nmin": "2.01×10^{6}",
+  "ell_at_threshold_range": "138–143",
+  "ell_at_threshold_range_400m": "138–160",
+  "led_ion_two_setting_first": "1.55×10^{6}",
+  "led_ion_two_setting_x10": "2,055",
+  "led_ion_two_setting_seed": "614",
+  "led_ion_two_setting_auth": "192",
+  "led_ion_two_setting_dyadic_first": "9.67×10^{6}",
+  "led_ion_one_setting_first": "1.12×10^{5}",
+  "led_ion_one_setting_x10": "130",
+  "led_ion_one_setting_seed": "565",
+  "led_ion_one_setting_auth": "192",
+  "led_ion_one_setting_dyadic_first": "3.30×10^{6}",
+  "led_ion_independent_first": "5.99×10^{5}",
+  "led_ion_independent_x10": "775",
+  "led_ion_independent_seed": "562",
+  "led_ion_independent_auth": "192",
+  "led_ion_independent_dyadic_first": "6.74×10^{6}",
+  "led_ion_seeded_first": "1.28×10^{5}",
+  "led_ion_seeded_x10": "120",
+  "led_ion_seeded_seed": "1,617",
+  "led_ion_seeded_auth": "192",
+  "led_ion_seeded_dyadic_first": "4.57×10^{6}",
+  "led_atom11km_two_setting_first": "3.54×10^{6}",
+  "led_atom11km_two_setting_x10": "2,883",
+  "led_atom11km_two_setting_seed": "815",
+  "led_atom11km_two_setting_auth": "192",
+  "led_atom11km_two_setting_dyadic_first": "2.24×10^{7}",
+  "led_atom11km_one_setting_first": "2.27×10^{5}",
+  "led_atom11km_one_setting_x10": "151",
+  "led_atom11km_one_setting_seed": "746",
+  "led_atom11km_one_setting_auth": "192",
+  "led_atom11km_one_setting_dyadic_first": "7.80×10^{6}",
+  "led_atom11km_independent_first": "1.28×10^{6}",
+  "led_atom11km_independent_x10": "1,003",
+  "led_atom11km_independent_seed": "741",
+  "led_atom11km_independent_auth": "192",
+  "led_atom11km_independent_dyadic_first": "1.53×10^{7}",
+  "led_atom11km_seeded_first": "2.72×10^{5}",
+  "led_atom11km_seeded_x10": "137",
+  "led_atom11km_seeded_seed": "2,239",
+  "led_atom11km_seeded_auth": "192",
+  "led_atom11km_seeded_dyadic_first": "1.07×10^{7}",
+  "led_qd_realistic_0km_two_setting_first": "1.49×10^{13}",
+  "led_qd_realistic_0km_two_setting_x10": "1.28×10^{9}",
+  "led_qd_realistic_0km_two_setting_seed": "4,084",
+  "led_qd_realistic_0km_two_setting_auth": "192",
+  "led_qd_realistic_0km_two_setting_dyadic_first": "7.31×10^{13}",
+  "led_qd_realistic_0km_one_setting_first": "5.83×10^{10}",
+  "led_qd_realistic_0km_one_setting_x10": "3.27×10^{6}",
+  "led_qd_realistic_0km_one_setting_seed": "4,071",
+  "led_qd_realistic_0km_one_setting_auth": "192",
+  "led_qd_realistic_0km_one_setting_dyadic_first": "5.85×10^{10}",
+  "led_qd_realistic_0km_independent_first": "3.77×10^{12}",
+  "led_qd_realistic_0km_independent_x10": "2.84×10^{8}",
+  "led_qd_realistic_0km_independent_seed": "4,034",
+  "led_qd_realistic_0km_independent_auth": "192",
+  "led_qd_realistic_0km_independent_dyadic_first": "5.68×10^{13}",
+  "led_qd_realistic_0km_seeded_first": "2.73×10^{11}",
+  "led_qd_realistic_0km_seeded_x10": "1.64×10^{7}",
+  "led_qd_realistic_0km_seeded_seed": "12,195",
+  "led_qd_realistic_0km_seeded_auth": "192",
+  "led_qd_realistic_0km_seeded_dyadic_first": "2.53×10^{13}",
+  "led_qd_realistic_10km_two_setting_first": "2.35×10^{13}",
+  "led_qd_realistic_10km_two_setting_x10": "2.02×10^{9}",
+  "led_qd_realistic_10km_two_setting_seed": "4,084",
+  "led_qd_realistic_10km_two_setting_auth": "192",
+  "led_qd_realistic_10km_two_setting_dyadic_first": "1.15×10^{14}",
+  "led_qd_realistic_10km_one_setting_first": "9.18×10^{10}",
+  "led_qd_realistic_10km_one_setting_x10": "5.16×10^{6}",
+  "led_qd_realistic_10km_one_setting_seed": "4,071",
+  "led_qd_realistic_10km_one_setting_auth": "192",
+  "led_qd_realistic_10km_one_setting_dyadic_first": "9.20×10^{10}",
+  "led_qd_realistic_10km_independent_first": "5.94×10^{12}",
+  "led_qd_realistic_10km_independent_x10": "4.47×10^{8}",
+  "led_qd_realistic_10km_independent_seed": "4,034",
+  "led_qd_realistic_10km_independent_auth": "192",
+  "led_qd_realistic_10km_independent_dyadic_first": "8.95×10^{13}",
+  "led_qd_realistic_10km_seeded_first": "4.30×10^{11}",
+  "led_qd_realistic_10km_seeded_x10": "2.58×10^{7}",
+  "led_qd_realistic_10km_seeded_seed": "12,195",
+  "led_qd_realistic_10km_seeded_auth": "192",
+  "led_qd_realistic_10km_seeded_dyadic_first": "3.98×10^{13}",
+  "priv_one_range": "130–151",
+  "priv_ind_range": "775–1,003",
+  "priv_seeded_range": "120–137",
+  "priv_two_range": "2,055–2,883",
+  "priv_photonic_range": "2.84×10^{8}–2.02×10^{9}",
+  "seed_x10_range": "565–746",
+  "qd_ideal_S": "2.631",
+  "qd_ideal_Q": "3.48 %",
+  "qd_realistic_S": "2.450",
+  "qd_realistic_Q": "6.65 %",
+  "pareto": {
+   "ion": [
+    {
+     "n": 216206.34,
+     "bits_per_signature": 15164.588917148862,
+     "protocol": "one_setting"
+    },
+    {
+     "n": 540939.1205659009,
+     "bits_per_signature": 267.43604995876626,
+     "protocol": "one_setting"
+    },
+    {
+     "n": 750669.8793418768,
+     "bits_per_signature": 251.88299797107737,
+     "protocol": "seeded"
+    },
+    {
+     "n": 1353406.806472975,
+     "bits_per_signature": 83.68247778765615,
+     "protocol": "one_setting"
+    },
+    {
+     "n": 1878144.2966311984,
+     "bits_per_signature": 80.26281440313822,
+     "protocol": "seeded"
+    },
+    {
+     "n": 3386166.602058919,
+     "bits_per_signature": 32.342488321837116,
+     "protocol": "one_setting"
+    },
+    {
+     "n": 4699037.614325014,
+     "bits_per_signature": 31.48168600674263,
+     "protocol": "seeded"
+    },
+    {
+     "n": 8472045.656974595,
+     "bits_per_signature": 13.326225340408161,
+     "protocol": "one_setting"
+    },
+    {
+     "n": 11756793.415951917,
+     "bits_per_signature": 13.120454846276589,
+     "protocol": "seeded"
+    },
+    {
+     "n": 21196700.0,
+     "bits_per_signature": 5.637492502557819,
+     "protocol": "one_setting"
+    },
+    {
+     "n": 29415000.0,
+     "bits_per_signature": 5.597892132297858,
+     "protocol": "seeded"
+    }
+   ],
+   "atom11km": [
+    {
+     "n": 507402.06,
+     "bits_per_signature": 20005.69257542478,
+     "protocol": "one_setting"
+    },
+    {
+     "n": 696764.04,
+     "bits_per_signature": 19943.14725607754,
+     "protocol": "seeded"
+    },
+    {
+     "n": 1269498.4990251744,
+     "bits_per_signature": 313.1509555905901,
+     "protocol": "one_setting"
+    },
+    {
+     "n": 1743274.165963606,
+     "bits_per_signature": 298.2342978546342,
+     "protocol": "seeded"
+    },
+    {
+     "n": 3176231.5648209434,
+     "bits_per_signature": 97.12683284449115,
+     "protocol": "one_setting"
+    },
+    {
+     "n": 4361598.25027151,
+     "bits_per_signature": 93.57996363197849,
+     "protocol": "seeded"
+    },
+    {
+     "n": 7946797.070742219,
+     "bits_per_signature": 37.52294792183838,
+     "protocol": "one_setting"
+    },
+    {
+     "n": 10912534.395446695,
+     "bits_per_signature": 36.594563861374425,
+     "protocol": "seeded"
+    },
+    {
+     "n": 19882550.246967614,
+     "bits_per_signature": 15.473430164697755,
+     "protocol": "one_setting"
+    },
+    {
+     "n": 27302699.62952094,
+     "bits_per_signature": 15.24222308022558,
+     "protocol": "seeded"
+    },
+    {
+     "n": 49745300.0,
+     "bits_per_signature": 6.545555468363655,
+     "protocol": "one_setting"
+    },
+    {
+     "n": 68310200.0,
+     "bits_per_signature": 6.497978326918337,
+     "protocol": "seeded"
+    }
+   ],
+   "qd_realistic_0km": [
+    {
+     "n": 44719765.14,
+     "bits_per_signature": 31049170225.623077,
+     "protocol": "independent"
+    },
+    {
+     "n": 111886961.44037753,
+     "bits_per_signature": 644832834.0415033,
+     "protocol": "independent"
+    },
+    {
+     "n": 279936446.472147,
+     "bits_per_signature": 301667702.9280932,
+     "protocol": "independent"
+    },
+    {
+     "n": 700389152.1820601,
+     "bits_per_signature": 179526314.84112653,
+     "protocol": "independent"
+    },
+    {
+     "n": 1752344043.3581238,
+     "bits_per_signature": 115307932.2964307,
+     "protocol": "independent"
+    },
+    {
+     "n": 4384290700.0,
+     "bits_per_signature": 76196577.27079107,
+     "protocol": "independent"
+    }
+   ],
+   "qd_realistic_10km": [
+    {
+     "n": 44719765.14,
+     "bits_per_signature": 48916558000.64367,
+     "protocol": "independent"
+    },
+    {
+     "n": 111886961.44037753,
+     "bits_per_signature": 1015904562.1610385,
+     "protocol": "independent"
+    },
+    {
+     "n": 279936446.472147,
+     "bits_per_signature": 475263366.37780833,
+     "protocol": "independent"
+    },
+    {
+     "n": 700389152.1820601,
+     "bits_per_signature": 282835047.5623429,
+     "protocol": "independent"
+    },
+    {
+     "n": 1752344043.3581238,
+     "bits_per_signature": 181661807.8753088,
+     "protocol": "independent"
+    },
+    {
+     "n": 4384290700.0,
+     "bits_per_signature": 120043569.75896378,
+     "protocol": "independent"
+    }
+   ]
+  },
+  "win_W_99": "19,209",
+  "win_W_half": "87,477",
+  "win_W_99_certified": "12,060",
+  "win_W_half_certified": "75,985",
+  "win_segments_known_99": "133",
+  "win_segments_known_half": "608",
+  "win_segments_known_99_certified": "83",
+  "win_segments_known_half_certified": "528",
+  "win_lb317": "0.9955",
+  "win_honest": "0.9960",
+  "win_sigs_pa": "514",
+  "win_segments": "8,399",
+  "win_runs": "10/10",
+  "win_forged": "11 of 11",
+  "iid_S": "2.564",
+  "iid_pacc": "0.42",
+  "iid_pg": "0.7984",
+  "iid_joint": "4.2×10^{−10}",
+  "iid_block": "3.5×10^{−6}",
+  "iid_breaks_upto": "5",
+  "iid_ion_max": "3.5×10^{−12}",
+  "iid_mc": "0.405",
+  "iid_mc_trials": "200",
+  "iid_mc_analytic": "0.416",
+  "thm2_ion_h": "0.457",
+  "thm2_ion_qhalf": "0.046",
+  "thm2_ion_rate": "0.443",
+  "thm2_atom11km_h": "0.375",
+  "thm2_atom11km_qhalf": "0.118",
+  "thm2_atom11km_rate": "0.216",
+  "thm2_atom400m_h": "0.338",
+  "thm2_atom400m_qhalf": "0.144",
+  "thm2_atom400m_rate": "0.090",
+  "thm2_qd_realistic_h": "0.229",
+  "thm2_qd_realistic_qhalf": "0.207",
+  "thm2_qd_realistic_rate": "0.032",
+  "S_half": "2.704",
+  "ns_needed_055": "452",
+  "ns_needed_051": "2259",
+  "share_ion": "40",
+  "share_atom11km": "15",
+  "seed_toep": "746",
+  "seed_mod": "608",
+  "seed_sampled": "9,355",
+  "seed_first": "4.59×10^{5}",
+  "acc_inside": "8 of 8",
+  "acc_honest_mc": "0.998",
+  "acc_honest_exact": "0.9960",
+  "run_one_setting_sigs": "514",
+  "run_seeded_sigs": "55",
+  "run_two_setting_sigs": "632",
+  "run_one_setting_aer_shots_sigs": "514",
+  "run_two_setting_1e7_aer_shots_sigs": "4,299",
+  "runs_honest": "204",
+  "runs_forge": "204",
+  "ec_key_range": "1.14–1.19",
+  "ec_test": "1.30",
+  "ec_400m": "1.23",
+  "ev_residual": "10 of 20",
+  "ev_pass": "10",
+  "session_sigs": "–",
+  "n_tests": "68"
+ },
+ "tables": {
+  "T_vmin": {
+   "caption": "Minimum Werner visibility for one signature (138 key bits per link) at ε = 10^{−10}.",
+   "rows": [
+    [
+     "Bound",
+     "n = 10^{8}",
+     "n = 10^{9}",
+     "n = 10^{10}"
+    ],
+    [
+     "Ref. {ref:fan}, printed (p = 0)",
+     "0.8835",
+     "0.8686",
+     "0.8622"
+    ],
+    [
+     "Ref. {ref:fan}, printed (p optimised)",
+     "0.8799",
+     "0.8608",
+     "0.8508"
+    ],
+    [
+     "EAT bound, this implementation (p = 0)",
+     "0.8847",
+     "0.8690",
+     "0.8623"
+    ],
+    [
+     "EAT bound, this implementation (p of Ref. {ref:fan})",
+     "0.8811",
+     "0.8612",
+     "0.8509"
+    ],
+    [
+     "Rényi, two settings (q = 0)",
+     "0.8728",
+     "0.8641",
+     "0.8602"
+    ],
+    [
+     "Rényi, two settings (q optimised)",
+     "0.8655",
+     "0.8531",
+     "0.8465"
+    ],
+    [
+     "Rényi, one setting, common flag (q = 0)",
+     "0.8690",
+     "0.8624",
+     "0.8595"
+    ],
+    [
+     "Rényi, one setting, common flag (q optimised)",
+     "0.8601",
+     "0.8502",
+     "0.8449"
+    ]
+   ]
+  },
+  "T_werner": {
+   "caption": "Heralded rounds per link to the first signature, Werner devices. EAT: bound of Ref. {ref:fan} without (p = 0) and with optimised preprocessing; Rényi: Eqs. (5)–(7) without (q = 0) and with optimised preprocessing. Two-setting entries rest on the per-basis bound of Lemma 1.",
+   "rows": [
+    [
+     "V",
+     "EAT 2 sett. p = 0",
+     "EAT 2 sett. p opt.",
+     "Rényi 2 sett. q = 0",
+     "Rényi 2 sett. q opt.",
+     "EAT 1 sett. p = 0",
+     "EAT 1 sett. p opt.",
+     "Rényi 1 sett. q = 0",
+     "Rényi 1 sett. q opt."
+    ],
+    [
+     "1",
+     "1.00×10^{6}",
+     "1.00×10^{6}",
+     "1.68×10^{5}",
+     "1.68×10^{5}",
+     "4.01×10^{5}",
+     "4.01×10^{5}",
+     "70,313",
+     "70,317"
+    ],
+    [
+     "0.98",
+     "1.62×10^{6}",
+     "1.62×10^{6}",
+     "2.78×10^{5}",
+     "2.78×10^{5}",
+     "6.45×10^{5}",
+     "6.45×10^{5}",
+     "1.17×10^{5}",
+     "1.17×10^{5}"
+    ],
+    [
+     "0.95",
+     "3.61×10^{6}",
+     "3.61×10^{6}",
+     "6.41×10^{5}",
+     "6.38×10^{5}",
+     "1.43×10^{6}",
+     "1.43×10^{6}",
+     "2.71×10^{5}",
+     "2.69×10^{5}"
+    ],
+    [
+     "0.92",
+     "1.06×10^{7}",
+     "1.03×10^{7}",
+     "1.97×10^{6}",
+     "1.89×10^{6}",
+     "4.21×10^{6}",
+     "4.07×10^{6}",
+     "8.42×10^{5}",
+     "8.00×10^{5}"
+    ],
+    [
+     "0.9",
+     "3.01×10^{7}",
+     "2.72×10^{7}",
+     "5.82×10^{6}",
+     "5.08×10^{6}",
+     "1.21×10^{7}",
+     "1.07×10^{7}",
+     "2.52×10^{6}",
+     "2.16×10^{6}"
+    ],
+    [
+     "0.88",
+     "1.67×10^{8}",
+     "1.09×10^{8}",
+     "3.43×10^{7}",
+     "2.08×10^{7}",
+     "6.83×10^{7}",
+     "4.31×10^{7}",
+     "1.52×10^{7}",
+     "8.91×10^{6}"
+    ]
+   ]
+  },
+  "T_experiments": {
+   "caption": "Projections for runs with the reported (S, Q) and number of heralded rounds of three DIQKD experiments {ref:nadlinger,zhang22,lu}, under the protocol named in each column (none is the experiment's own analysis): rounds to the first signature (q optimised) and signatures that the recorded block would support with the one-setting protocol. EAT: bound of Ref. {ref:fan}, one setting. Error correction at the Shannon limit except in the last column's second entry (f = 1.20 on key rounds, 1.33 on test rounds, the budget our Cascade meets). No memory penalty for the common flag (Table IV gives it). Q_{x} from Eq. (4) except for the 400 m link (Sec. II C).",
+   "rows": [
+    [
+     "Data set (reported S / Q / Q_{x})",
+     "EAT, one setting",
+     "Rényi, one setting, common flag",
+     "Rényi, independent flags",
+     "Rényi, two settings (Eq. 4 / Q_{x} = Q)",
+     "Signatures from the recorded block (f = 1 / Cascade budget)"
+    ],
+    [
+     "Ions, 2 m {ref:nadlinger}: 2.677 / 1.44 % / 3.91 %",
+     "1.15×10^{6}",
+     "2.12×10^{5}",
+     "3.03×10^{5}",
+     "6.97×10^{5} / 5.05×10^{5}",
+     "3,023 / 2,707"
+    ],
+    [
+     "Atoms, 11 km {ref:lu}: 2.612 / 2.85 % / 4.80 %",
+     "2.59×10^{6}",
+     "4.97×10^{5}",
+     "6.84×10^{5}",
+     "1.61×10^{6} / 1.18×10^{6}",
+     "919 / 514"
+    ],
+    [
+     "Atoms, 400 m {ref:zhang22}: 2.578 / 7.80 % / 7.80 %",
+     "2.55×10^{7}",
+     "5.39×10^{6}",
+     "6.71×10^{6}",
+     "1.25×10^{7} / 1.25×10^{7}",
+     "0 / 0"
+    ]
+   ]
+  },
+  "T_lu": {
+   "caption": "Bits per heralded event and signatures (138 key bits each) from the recorded 11 km block (1.208×10^{6} events), our implementation of three protocols at three soundness levels, against Lu et al.'s published Rényi analysis of their own protocol.",
+   "rows": [
+    [
+     "ε_{snd} per link",
+     "Published (Lu et al., their protocol)",
+     "Lu et al.'s protocol, this implementation (γ_{A} = 0.26, γ_{B} = 0.13, q = 0)",
+     "Independent flags, γ and q optimised",
+     "One setting, common flag, q optimised"
+    ],
+    [
+     "10^{−5}",
+     "0.112",
+     "0.085 (747 sig.)",
+     "0.090 (787 sig.)",
+     "0.139 (1,214 sig.)"
+    ],
+    [
+     "5×10^{−11}",
+     "–",
+     "0.056 (494 sig.)",
+     "0.059 (514 sig.)",
+     "0.105 (919 sig.)"
+    ],
+    [
+     "10^{−15}",
+     "0.075",
+     "0.037 (328 sig.)",
+     "0.040 (348 sig.)",
+     "0.084 (736 sig.)"
+    ]
+   ]
+  },
+  "T_sensitivity": {
+   "caption": "Sensitivity of the rounds to the first signature (one setting, common flag, q optimised) for the ion and 11 km atom statistics.",
+   "rows": [
+    [
+     "Parameter",
+     "Value",
+     "Ions",
+     "Atoms, 11 km"
+    ],
+    [
+     "soundness per link ε_{snd}",
+     "10^{−5}",
+     "1.55×10^{5}",
+     "3.60×10^{5}"
+    ],
+    [
+     "soundness per link ε_{snd}",
+     "10^{−8}",
+     "1.89×10^{5}",
+     "4.41×10^{5}"
+    ],
+    [
+     "soundness per link ε_{snd}",
+     "5×10^{−11}",
+     "2.12×10^{5}",
+     "4.97×10^{5}"
+    ],
+    [
+     "soundness per link ε_{snd}",
+     "10^{−12}",
+     "2.28×10^{5}",
+     "5.36×10^{5}"
+    ],
+    [
+     "soundness per link ε_{snd}",
+     "10^{−15}",
+     "2.55×10^{5}",
+     "6.02×10^{5}"
+    ],
+    [
+     "error-correction efficiency f",
+     "1",
+     "2.12×10^{5}",
+     "4.97×10^{5}"
+    ],
+    [
+     "error-correction efficiency f",
+     "1.1",
+     "2.29×10^{5}",
+     "5.90×10^{5}"
+    ],
+    [
+     "error-correction efficiency f",
+     "1.2",
+     "2.48×10^{5}",
+     "7.00×10^{5}"
+    ],
+    [
+     "error-correction efficiency f",
+     "1.3",
+     "2.69×10^{5}",
+     "8.33×10^{5}"
+    ],
+    [
+     "error-correction efficiency f",
+     "Cascade budget (1.20 key, 1.33 test)",
+     "2.56×10^{5}",
+     "7.23×10^{5}"
+    ],
+    [
+     "acceptance tails (ε^{AT}_{com} = 0.004)",
+     "3 one-sided tails, Φ(−3) each (this work)",
+     "2.12×10^{5}",
+     "4.97×10^{5}"
+    ],
+    [
+     "acceptance tails (ε^{AT}_{com} = 0.001)",
+     "6 tails sharing 10^{−3} (Ref. {ref:hahn})",
+     "2.32×10^{5}",
+     "5.47×10^{5}"
+    ],
+    [
+     "acceptance tails (ε^{AT}_{com} = 0.01)",
+     "3 tails sharing 10^{−2}",
+     "2.02×10^{5}",
+     "4.74×10^{5}"
+    ],
+    [
+     "memory T_{2} over the extra L/c (S after the wait)",
+     "1 ms (S = 2.544)",
+     "–",
+     "8.66×10^{5}"
+    ],
+    [
+     "memory T_{2} over the extra L/c (S after the wait)",
+     "10 ms (S = 2.605)",
+     "–",
+     "5.24×10^{5}"
+    ],
+    [
+     "memory T_{2} over the extra L/c (S after the wait)",
+     "27.5 ms (S = 2.609)",
+     "–",
+     "5.07×10^{5}"
+    ],
+    [
+     "memory T_{2} over the extra L/c (S after the wait)",
+     "100 ms (S = 2.611)",
+     "–",
+     "5.00×10^{5}"
+    ],
+    [
+     "signature length",
+     "n_{m} = 10^{6} bits: n_{s} = 56",
+     "2.12×10^{5}",
+     "4.98×10^{5}"
+    ],
+    [
+     "signature length",
+     "n_{m} = 10^{9} bits: n_{s} = 66",
+     "2.12×10^{5}",
+     "4.98×10^{5}"
+    ],
+    [
+     "signature length",
+     "composable, n_{s} = 82 {ref:bian}",
+     "2.13×10^{5}",
+     "4.98×10^{5}"
+    ]
+   ]
+  },
+  "T_ledger": {
+   "caption": "Trusted bits per link, entropy-efficient sampler, key-optimal parameters. The first signature pays for its whole threshold block; the other columns are per signature at ten times that block. Auth.: authentication key, 64-bit Wegman–Carter tags with key recycling, two per block and link plus three per signature between Bob and Charlie.",
+   "rows": [
+    [
+     "Platform",
+     "Protocol",
+     "First signature (rounds)",
+     "Private bits, first signature (whole block)",
+     "Private bits per signature, 10× block",
+     "Public seed per signature, 10× block",
+     "Pre-shared secret, first signature",
+     "Auth. key per signature, 10× block"
+    ],
+    [
+     "Ions, 2 m",
+     "two settings",
+     "6.97×10^{5}",
+     "1.55×10^{6}",
+     "2,055",
+     "614",
+     "–",
+     "192"
+    ],
+    [
+     "Ions, 2 m",
+     "one setting, common flag",
+     "2.12×10^{5}",
+     "1.12×10^{5}",
+     "130",
+     "565",
+     "–",
+     "192"
+    ],
+    [
+     "Ions, 2 m",
+     "one setting, independent flags",
+     "3.03×10^{5}",
+     "5.99×10^{5}",
+     "775",
+     "562",
+     "–",
+     "192"
+    ],
+    [
+     "Ions, 2 m",
+     "pre-shared seed",
+     "2.94×10^{5}",
+     "1.28×10^{5}",
+     "120",
+     "1,617",
+     "–",
+     "192"
+    ],
+    [
+     "Atoms, 11 km",
+     "two settings",
+     "1.61×10^{6}",
+     "3.54×10^{6}",
+     "2,883",
+     "815",
+     "–",
+     "192"
+    ],
+    [
+     "Atoms, 11 km",
+     "one setting, common flag",
+     "4.97×10^{5}",
+     "2.27×10^{5}",
+     "151",
+     "746",
+     "–",
+     "192"
+    ],
+    [
+     "Atoms, 11 km",
+     "one setting, independent flags",
+     "6.84×10^{5}",
+     "1.28×10^{6}",
+     "1,003",
+     "741",
+     "–",
+     "192"
+    ],
+    [
+     "Atoms, 11 km",
+     "pre-shared seed",
+     "6.83×10^{5}",
+     "2.72×10^{5}",
+     "137",
+     "2,239",
+     "–",
+     "192"
+    ],
+    [
+     "Photonic, 0 km",
+     "two settings",
+     "9.14×10^{7}",
+     "1.49×10^{13}",
+     "1.28×10^{9}",
+     "4,084",
+     "–",
+     "192"
+    ],
+    [
+     "Photonic, 0 km",
+     "one setting, common flag",
+     "3.78×10^{7}",
+     "5.83×10^{10}",
+     "3.27×10^{6}",
+     "4,071",
+     "2.37×10^{11}",
+     "192"
+    ],
+    [
+     "Photonic, 0 km",
+     "one setting, independent flags",
+     "4.38×10^{7}",
+     "3.77×10^{12}",
+     "2.84×10^{8}",
+     "4,034",
+     "–",
+     "192"
+    ],
+    [
+     "Photonic, 0 km",
+     "pre-shared seed",
+     "3.94×10^{7}",
+     "2.73×10^{11}",
+     "1.64×10^{7}",
+     "12,195",
+     "3.15×10^{12}",
+     "192"
+    ],
+    [
+     "Photonic, 10 km",
+     "two settings",
+     "9.14×10^{7}",
+     "2.35×10^{13}",
+     "2.02×10^{9}",
+     "4,084",
+     "–",
+     "192"
+    ],
+    [
+     "Photonic, 10 km",
+     "one setting, common flag",
+     "3.78×10^{7}",
+     "9.18×10^{10}",
+     "5.16×10^{6}",
+     "4,071",
+     "3.73×10^{11}",
+     "192"
+    ],
+    [
+     "Photonic, 10 km",
+     "one setting, independent flags",
+     "4.38×10^{7}",
+     "5.94×10^{12}",
+     "4.47×10^{8}",
+     "4,034",
+     "–",
+     "192"
+    ],
+    [
+     "Photonic, 10 km",
+     "pre-shared seed",
+     "3.94×10^{7}",
+     "4.30×10^{11}",
+     "2.58×10^{7}",
+     "12,195",
+     "4.97×10^{12}",
+     "192"
+    ]
+   ]
+  },
+  "T_devices": {
+   "caption": "Device models fitted to the reported statistics; the last column compares the Qiskit Aer and QuTiP probability tables (a software cross-check).",
+   "rows": [
+    [
+     "Platform",
+     "Target S / Q",
+     "Fitted noise",
+     "Model S / Q",
+     "max |P_{Aer} − P_{QuTiP}|"
+    ],
+    [
+     "Ions, 2 m",
+     "2.677 / 1.44 %",
+     "λ = 0.0249, μ = 0.0255, ε_{r} = 0.001",
+     "2.6770 / 1.44 %",
+     "4.4e-16"
+    ],
+    [
+     "Atoms, 11 km",
+     "2.612 / 2.85 %",
+     "λ = 0.0379, μ = 0.0207, ε_{r} = 0.005",
+     "2.6120 / 2.85 %",
+     "5.0e-16"
+    ],
+    [
+     "Photonic (QD, realistic)",
+     "2.450 / 6.65 %",
+     "v_{eff} = 0.9199, η = 0.97",
+     "2.4500 / 6.68 %",
+     "1.1e-16"
+    ]
+   ]
+  },
+  "T_sequence": {
+   "caption": "SeQUeNCe discrete-event simulation of the attempt loop.",
+   "rows": [
+    [
+     "Platform",
+     "Attempts per herald (simulated / analytic)",
+     "Heralds per second (simulated / analytic)",
+     "Inputs drawn"
+    ],
+    [
+     "Ions, 2 m",
+     "6,186 / 6,297",
+     "53 / 52.1",
+     "per herald"
+    ],
+    [
+     "Atoms, 11 km",
+     "3,059 / 2,995",
+     "0.519 / 0.53",
+     "per herald"
+    ],
+    [
+     "Photonic, 0 km",
+     "79,448 / 80,000",
+     "944 / 938",
+     "per attempt"
+    ],
+    [
+     "Photonic, 10 km",
+     "125,167 / 126,037",
+     "582 / 595",
+     "per attempt"
+    ]
+   ]
+  },
+  "T_window": {
+   "caption": "Proposition 1 on Aer devices calibrated to the 11 km link (one setting, n = 1.208×10^{6}, q = 0, Cascade error correction).",
+   "rows": [
+    [
+     "Quantity",
+     "Value"
+    ],
+    [
+     "Signatures with privacy amplification",
+     "514"
+    ],
+    [
+     "Segments a no-PA scheme would sign",
+     "8,399"
+    ],
+    [
+     "Acceptance probability, honest devices (exact)",
+     "0.9960"
+    ],
+    [
+     "Acceptance probability, window of 317 rounds: certified lower bound (coupling)",
+     "0.9955"
+    ],
+    [
+     "Longest window with acceptance ≥ 0.99 × honest: certified / estimate",
+     "12,060 / 19,209 rounds (83 / 133 segments known to Eve)"
+    ],
+    [
+     "Longest window with acceptance ≥ 1/2: certified / estimate",
+     "75,985 / 87,477 rounds (528 / 608 segments)"
+    ],
+    [
+     "10 complete runs, 317-round window, no PA",
+     "10/10 accepted; 11 of 11 targeted segments forged; 0 of 40 others"
+    ],
+    [
+     "Same devices with Toeplitz PA",
+     "9/10 accepted; 0 of 36 forged"
+    ]
+   ]
+  },
+  "T_iid": {
+   "caption": "Proposition 2 on the one-setting protocol (Cascade budget, q optimised). P(sig.): accept and forge one targeted signature; P(block): accept and forge at least one segment of the block (per-session notion, Sec. II B). P_{acc} is the acceptance probability of the 3σ test.",
+   "rows": [
+    [
+     "Link",
+     "n",
+     "S^{*}",
+     "P_{acc}",
+     "p_{g}",
+     "P(sig.)",
+     "Segments",
+     "P(block)"
+    ],
+    [
+     "Atoms, 11 km",
+     "1.21×10^{6}",
+     "2.564",
+     "0.42",
+     "0.798",
+     "4.2×10^{−10}",
+     "8,404",
+     "3.5×10^{−6}"
+    ],
+    [
+     "Atoms, 11 km",
+     "2.42×10^{6}",
+     "2.578",
+     "0.52",
+     "0.791",
+     "2.3×10^{−10}",
+     "16,942",
+     "3.8×10^{−6}"
+    ],
+    [
+     "Atoms, 11 km",
+     "6.04×10^{6}",
+     "2.589",
+     "0.64",
+     "0.784",
+     "1.3×10^{−10}",
+     "42,716",
+     "5.4×10^{−6}"
+    ],
+    [
+     "Atoms, 11 km",
+     "1.21×10^{7}",
+     "2.596",
+     "0.72",
+     "0.781",
+     "9.4×10^{−11}",
+     "85,856",
+     "8.1×10^{−6}"
+    ],
+    [
+     "Ions, 2 m",
+     "1.50×10^{6}",
+     "2.631",
+     "0.35",
+     "0.759",
+     "3.5×10^{−12}",
+     "10,461",
+     "3.6×10^{−8}"
+    ],
+    [
+     "Ions, 2 m",
+     "3.00×10^{6}",
+     "2.644",
+     "0.46",
+     "0.751",
+     "1.7×10^{−12}",
+     "21,081",
+     "3.5×10^{−8}"
+    ],
+    [
+     "Ions, 2 m",
+     "1.50×10^{7}",
+     "2.661",
+     "0.67",
+     "0.739",
+     "5.8×10^{−13}",
+     "106,730",
+     "6.2×10^{−8}"
+    ]
+   ]
+  },
+  "T_thm2": {
+   "caption": "Theorem 2 at the reported scores: min-entropy per raw key bit under the accepted i.i.d. attack, the preprocessing q_{1/2} that would lift it to 1/2, the asymptotic one-setting key rate at that q, and the smallest forging bound any min-entropy argument can give for raw hash keys (n_{m} = 1000).",
+   "rows": [
+    [
+     "Data set",
+     "S",
+     "p_{g}(S)",
+     "h_{min} per raw bit",
+     "q_{1/2}",
+     "Key rate at q_{1/2} (asymptotic)",
+     "Min-entropy forging bound, n_{s} = 46 / 82 / 200"
+    ],
+    [
+     "Ions, 2 m",
+     "2.677",
+     "0.7283",
+     "0.457",
+     "0.046",
+     "0.443",
+     "1 / 1 / 1"
+    ],
+    [
+     "Atoms, 11 km",
+     "2.612",
+     "0.7713",
+     "0.375",
+     "0.118",
+     "0.216",
+     "1 / 1 / 1"
+    ],
+    [
+     "Atoms, 400 m",
+     "2.578",
+     "0.7909",
+     "0.338",
+     "0.144",
+     "0.090",
+     "1 / 1 / 1"
+    ],
+    [
+     "Photonic (QD)",
+     "2.450",
+     "0.8533",
+     "0.229",
+     "0.207",
+     "0.032",
+     "1 / 1 / 1"
+    ]
+   ]
+  },
+  "T_seeds": {
+   "caption": "Seed options; m = 138N/ℓ raw bits per signature.",
+   "rows": [
+    [
+     "Option",
+     "Seed per block",
+     "Bits per signature (11 km, 10× block)",
+     "Secure"
+    ],
+    [
+     "Toeplitz",
+     "N + ℓ − 1",
+     "746",
+     "yes"
+    ],
+    [
+     "Modified Toeplitz [T | I] {ref:hayashi}",
+     "N − 1",
+     "608",
+     "yes"
+    ],
+    [
+     "No privacy amplification",
+     "0",
+     "0",
+     "no (Props. 1–2, Theorem 2)"
+    ],
+    [
+     "Per-signature hash, consecutive chunks",
+     "m − 1 per signature",
+     "607",
+     "no (Prop. 1)"
+    ],
+    [
+     "Per-signature hash, sampled subsets",
+     "log_{2} C(N, m) + m − 1 per signature",
+     "9,355",
+     "yes"
+    ],
+    [
+     "Public permutation, then chunks",
+     "log_{2} N! + N_{sig}(m − 1)",
+     "13,228",
+     "yes"
+    ]
+   ]
+  },
+  "T_acceptance": {
+   "caption": "Acceptance test: Monte Carlo on Aer devices against the exact binomial probability. Deterministic fraction: devices deterministic in a random fraction f of rounds, tuned to an exact acceptance of 0.9, 0.5 and 0.1; deterministic second half: devices honest for the first half of the block and deterministic afterwards.",
+   "rows": [
+    [
+     "Tails",
+     "Device",
+     "f",
+     "Runs",
+     "MC acceptance",
+     "95 % CI (Clopper–Pearson)",
+     "Exact"
+    ],
+    [
+     "3σ",
+     "honest",
+     "0.0000",
+     "1,000",
+     "0.998",
+     "0.993–1.000",
+     "0.9960"
+    ],
+    [
+     "3σ",
+     "deterministic fraction, target 0.9",
+     "0.0407",
+     "1,000",
+     "0.899",
+     "0.879–0.917",
+     "0.9000"
+    ],
+    [
+     "3σ",
+     "deterministic fraction, target 0.5",
+     "0.0728",
+     "1,000",
+     "0.502",
+     "0.471–0.533",
+     "0.5000"
+    ],
+    [
+     "3σ",
+     "deterministic fraction, target 0.1",
+     "0.1045",
+     "1,000",
+     "0.083",
+     "0.067–0.102",
+     "0.1000"
+    ],
+    [
+     "3σ",
+     "deterministic second half",
+     "0.5000",
+     "40",
+     "0.000",
+     "0.000–0.088",
+     "0.0000"
+    ],
+    [
+     "0.02",
+     "honest",
+     "0.0000",
+     "1,000",
+     "0.933",
+     "0.916–0.948",
+     "0.9430"
+    ],
+    [
+     "0.02",
+     "deterministic fraction, target 0.9",
+     "0.0115",
+     "1,000",
+     "0.905",
+     "0.885–0.922",
+     "0.9000"
+    ],
+    [
+     "0.02",
+     "deterministic fraction, target 0.5",
+     "0.0481",
+     "1,000",
+     "0.498",
+     "0.467–0.529",
+     "0.5000"
+    ],
+    [
+     "0.02",
+     "deterministic fraction, target 0.1",
+     "0.0811",
+     "1,000",
+     "0.109",
+     "0.090–0.130",
+     "0.1000"
+    ],
+    [
+     "0.02",
+     "deterministic second half",
+     "0.5000",
+     "40",
+     "0.000",
+     "0.000–0.088",
+     "0.0000"
+    ]
+   ]
+  },
+  "T_runs": {
+   "caption": "Complete DI-QDS runs on the 11 km link (both links, Cascade, verification, Toeplitz privacy amplification, OTUH); a consistency and completeness check of the implementation.",
+   "rows": [
+    [
+     "Run",
+     "n per link",
+     "Accepted",
+     "Signatures/block",
+     "Honest verified",
+     "Altered documents accepted",
+     "Max leak/budget"
+    ],
+    [
+     "One setting",
+     "1.21×10^{6}",
+     "10/10",
+     "514",
+     "60/60",
+     "0/60",
+     "0.83"
+    ],
+    [
+     "Pre-shared seed",
+     "1.21×10^{6}",
+     "10/10",
+     "55",
+     "60/60",
+     "0/60",
+     "0.86"
+    ],
+    [
+     "Two settings",
+     "4.00×10^{6}",
+     "10/10",
+     "632",
+     "60/60",
+     "0/60",
+     "0.85"
+    ],
+    [
+     "One setting, Aer shots",
+     "1.21×10^{6}",
+     "3/3",
+     "514",
+     "18/18",
+     "0/18",
+     "0.82"
+    ],
+    [
+     "Two settings, Aer shots",
+     "1.00×10^{7}",
+     "1/1",
+     "4,299",
+     "6/6",
+     "0/6",
+     "0.89"
+    ],
+    [
+     "Deterministic second half",
+     "1.21×10^{6}",
+     "0/3",
+     "–",
+     "–",
+     "–",
+     "–"
+    ]
+   ]
+  }
+ }
+}

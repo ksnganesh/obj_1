@@ -1,0 +1,9 @@
+{
+  "title": "diqds: certification limits, trusted-randomness accounting and finite-size thresholds for device-independent quantum digital signatures",
+  "upload_type": "software",
+  "description": "Code, cached results and tests for the article on device-independent quantum digital signatures (simulation only: NumPy/SciPy bounds, QuTiP, Qiskit Aer, SeQUeNCe). Every table and figure of the article is produced by the scripts in scripts/; results/article_numbers.json lists every number quoted in the text.",
+  "license": "Apache-2.0",
+  "keywords": ["device-independent quantum cryptography", "quantum digital signatures", "Rényi entropy accumulation", "trusted randomness", "privacy amplification"],
+  "creators": [{"name": "[Author name]", "affiliation": "[Affiliation]"}],
+  "version": "0.5.0"
+}
